@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A3A99B119FD8F6E000325C5 /* mixtapes2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A99B019FD8F6E000325C5 /* mixtapes2.icns */; };
 		9AB7235E19FD71070053F2B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB7235D19FD71070053F2B2 /* AppDelegate.swift */; };
 		9AB7236019FD71070053F2B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB7235F19FD71070053F2B2 /* Images.xcassets */; };
 		9AB7236319FD71070053F2B2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB7236119FD71070053F2B2 /* MainMenu.xib */; };
 		9AB7236F19FD71080053F2B2 /* MixtapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB7236E19FD71080053F2B2 /* MixtapesTests.swift */; };
+		9AB7237919FD88AB0053F2B2 /* mixtapes.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9AB7237819FD88AB0053F2B2 /* mixtapes.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A3A99B019FD8F6E000325C5 /* mixtapes2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = mixtapes2.icns; path = ../../../../Downloads/mixtapes2.icns; sourceTree = "<group>"; };
 		9AB7235819FD71070053F2B2 /* Mixtapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mixtapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB7235C19FD71070053F2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AB7235D19FD71070053F2B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +35,7 @@
 		9AB7236819FD71080053F2B2 /* MixtapesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixtapesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB7236D19FD71080053F2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AB7236E19FD71080053F2B2 /* MixtapesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixtapesTests.swift; sourceTree = "<group>"; };
+		9AB7237819FD88AB0053F2B2 /* mixtapes.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = mixtapes.icns; path = ../../../../Downloads/mixtapes.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				9AB7235D19FD71070053F2B2 /* AppDelegate.swift */,
 				9AB7235F19FD71070053F2B2 /* Images.xcassets */,
 				9AB7236119FD71070053F2B2 /* MainMenu.xib */,
+				9AB7237819FD88AB0053F2B2 /* mixtapes.icns */,
+				9A3A99B019FD8F6E000325C5 /* mixtapes2.icns */,
 				9AB7235B19FD71070053F2B2 /* Supporting Files */,
 			);
 			path = Mixtapes;
@@ -188,6 +194,8 @@
 			files = (
 				9AB7236019FD71070053F2B2 /* Images.xcassets in Resources */,
 				9AB7236319FD71070053F2B2 /* MainMenu.xib in Resources */,
+				9A3A99B119FD8F6E000325C5 /* mixtapes2.icns in Resources */,
+				9AB7237919FD88AB0053F2B2 /* mixtapes.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +401,7 @@
 				9AB7237419FD71080053F2B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AB7237519FD71080053F2B2 /* Build configuration list for PBXNativeTarget "MixtapesTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +410,7 @@
 				9AB7237719FD71080053F2B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
